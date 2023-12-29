@@ -17,7 +17,7 @@ const Hero = () => {
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600 text-center">
             Front-End Developer and Informatic Engineering Student
           </h4>
-          <button className="btn-primary mt-8 text-base">Contact Me</button>
+          <a className="btn-primary mt-8 text-base" href="#contact">Contact Me</a>
           <div className="mt-8 text-3xl flex items-center justify-center gap-5">            
             <a className="text-gray-600 hover:text-white cursor-pointer" 
               href="https://www.instagram.com/bndry_lkbrlwal/" target="_blank"><ion-icon name='logo-instagram'></ion-icon></a>
