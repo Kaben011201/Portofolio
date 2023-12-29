@@ -3,6 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
 import project3 from "../assets/images/project-3.png";
+import project4 from "../assets/images/project-4.png";
+import project5 from "../assets/images/project-5.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
@@ -26,7 +28,19 @@ const Project = () => {
       name: "Duplicate Youtube - Super Simple Dev",
       github_link: "https://github.com/Kaben011201/Duplicate_Youtube",
       live_link: "https://kaben011201.github.io/Duplicate_Youtube.github.io/",
-    }
+    },
+    {
+      img: project4,
+      name: "CRUD Website - Final Exam Website Programming",
+      github_link: "https://github.com/Kaben011201/UAS_PEMWEB",
+      live_link: "https://121140111-uas-pemweb.000webhostapp.com",
+    },
+    {
+      img: project5,
+      name: "Simple Website - Midterm Exam Website Programming",
+      github_link: "https://github.com/Kaben011201/UTS_PEMWEB.github.io",
+      live_link: "https://kaben011201.github.io/UTS_PEMWEB.github.io/",
+    }    
   ];
   return (
     <section id="projects" className="py-10 text-white">
@@ -69,13 +83,23 @@ const Project = () => {
                     >
                       Github
                     </a>
-                    <a
-                      href={project_info.live_link}
-                      target="_blank"
-                      className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
-                    >
-                      Live Demo
-                    </a>
+                    {project_info.live_link !== "#" ? (
+                        <a
+                          href={project_info.live_link}
+                          target="_blank"
+                          className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
+                        >
+                          Live Demo
+                        </a>
+                      ) : (
+                        <a
+                          href={project_info.img}
+                          target="_blank"
+                          className="text-cyan-600 bg-gray-800 px-2 py-1 inline-block"
+                        >
+                          Open Image
+                        </a>
+                      )}
                   </div>
                 </div>
               </SwiperSlide>

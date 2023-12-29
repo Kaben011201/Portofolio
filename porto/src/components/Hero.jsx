@@ -1,11 +1,5 @@
 import React from "react";
 const Hero = () => {
-  const social_media = [
-    "logo-instagram",
-    "logo-facebook",
-    "logo-linkedin",
-    "logo-twitter",
-  ];
   return (
     <section
       id="home"
@@ -24,16 +18,13 @@ const Hero = () => {
             Front-End Developer and Informatic Engineering Student
           </h4>
           <button className="btn-primary mt-8 text-base">Contact Me</button>
-          <div className="mt-8 text-3xl flex items-center justify-center gap-5">
-            {social_media?.map((icon) => (
-              
-              <div
-                key={icon}
-                className="text-gray-600 hover:text-white cursor-pointer"
-              >
-                <ion-icon name={icon}></ion-icon>
-              </div>
-            ))}
+          <div className="mt-8 text-3xl flex items-center justify-center gap-5">            
+            <a className="text-gray-600 hover:text-white cursor-pointer" 
+              href="https://www.instagram.com/bndry_lkbrlwal/" target="_blank"><ion-icon name='logo-instagram'></ion-icon></a>
+            <a className="text-gray-600 hover:text-white cursor-pointer"
+               href="https://web.facebook.com/bendry.lakburlawal.9" target="_blank"><ion-icon name='logo-facebook'></ion-icon></a> 
+            <a className="text-gray-600 hover:text-white cursor-pointer"
+              href="https://www.linkedin.com/in/bendry-lakburlawal-2903002a4/" target="_blank"><ion-icon name='logo-linkedin'></ion-icon></a>                 
           </div>
         </div>
       </div>
