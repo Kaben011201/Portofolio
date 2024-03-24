@@ -1,4 +1,5 @@
 import React from "react";
+import myCV from '../assets/Bendry_Lakburlawal_CV.pdf'
 const About = () => {
   return (
     <section id="about" className="py-10 text-white">
@@ -19,7 +20,7 @@ const About = () => {
               
               <br />
               <br />
-              <a className="self-center" href="../assets/Bendry_Lakburlawal_CV.pdf" download>
+              <a className="self-center" href={myCV} download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
