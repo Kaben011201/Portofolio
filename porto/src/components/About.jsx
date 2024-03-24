@@ -19,7 +19,7 @@ const About = () => {
               
               <br />
               <br />
-              <a className="self-center" href="../assets/Bendry_Lakburlawal_CV.pdf" download>
+              <a className="self-center" href="../assets/bendry_Lakburlawal_CV.pdf" download>
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
