@@ -3,9 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply font-Poppins scroll-smooth;
+@layer utilities {
+  .font-Poppins {
+    font-family: 'Poppins', sans-serif;
+  }
 }
+
 body {
   @apply box-border bg-gray-900 text-gray-100;
 }

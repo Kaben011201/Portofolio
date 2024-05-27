@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
   ];
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const nav = document.querySelector("nav");
+   
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });
   }, []);
