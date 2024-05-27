@@ -46,7 +46,7 @@ const skills = [
         </svg>
       ),
       level: "Beginner",
-      count: 45,
+      count: 40,
       name: "PHP"
     },
   ];

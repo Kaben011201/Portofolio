@@ -12,7 +12,7 @@ const About = () => {
           <div className="p-2">
             <div className="text-gray-300 mb-3 flex flex-col justify-center">
               <p className="text-center leading-7 w-11/12 mx-auto md:text-xl">
-                I&apos;m still studiying at Institute Tecnology Sumatera. Now, I have taken 6
+                I&apos;m still studiying at Institut Teknologi Sumatera. Now, I have taken 6
                 semesters to learn about informatic engineering and I have learned some 
                 programming languages for website development. I have completed some project for 
                 website based on HTML, CSS (Vanilla and Tailwind), PHP, and JavaScript(Vanilla, NextJS).
