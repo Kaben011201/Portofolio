@@ -14,7 +14,7 @@ const projects = [
   },
   {
     img: project2,
-    name: "Pemilihan Raya Institut Teknologi Sumatera 2023 | Frontend Laravel 9",
+    name: "Student President Election of Institut Teknologi Sumatera 2023 | Frontend Laravel 9",
     // github_link: "https://github.com/PemiraITERA/pemira2023",
     live_link: "#",
   },
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     img: project6,
-    name: "Pengembangan Laman PDDikti Resmi | MSIB Project | Frontend React JS",
+    name: "Development of the Official PDDikti Website | MSIB Project | Frontend React JS",
     live_link: "https://pddikti.kemdikbud.go.id/",
   },
 ];
